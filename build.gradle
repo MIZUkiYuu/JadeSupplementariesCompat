@@ -34,8 +34,12 @@ dependencies {
     // Jade
     modImplementation "maven.modrinth:jade:${jade_id}"
 
+    // Moonlight
+    modImplementation "maven.modrinth:moonlight:${moonlight_id}"
+
     // Supplementaries
     modImplementation "maven.modrinth:supplementaries:${supplementaries_id}"
+
 }
 
 processResources {

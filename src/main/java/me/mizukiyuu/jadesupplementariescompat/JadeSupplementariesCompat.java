@@ -14,13 +14,15 @@ public class JadeSupplementariesCompat implements IWailaPlugin {
     public static final String NAME = "Jade Compat Addon";
     public static final Logger LOGGER = LogManager.getLogger(NAME);
 
+    SupplementariesPlugin supplementariesPlugin = new SupplementariesPlugin();
+
     @Override
     public void register(IWailaCommonRegistration registration) {
-
+        supplementariesPlugin.register(registration);
     }
 
     @Override
     public void registerClient(IWailaClientRegistration registration) {
-
+        supplementariesPlugin.registerClient(registration);
     }
 }
