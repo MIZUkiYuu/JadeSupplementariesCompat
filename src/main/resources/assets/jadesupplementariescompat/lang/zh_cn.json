@@ -1,5 +1,6 @@
 {
   "config.jade.plugin_supplementaries.hanging_sign": "挂牌",
-  "config.jade.plugin_supplementaries.hanging_sign.advanced_tooltip": "高级提示框"
+  "config.jade.plugin_supplementaries.hanging_sign.advanced_tooltip": "高级提示信息",
+  "config.jade.plugin_supplementaries.hanging_sign.shulkerbox_inventory": "潜影盒预览"
 
 }

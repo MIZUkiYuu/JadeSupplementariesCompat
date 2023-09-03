@@ -1,5 +1,8 @@
 package me.mizukiyuu.jadesupplementariescompat.mixin;
 
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
+import net.mehvahdjukaar.moonlight.api.platform.PlatformHelper;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Vec3i;
@@ -16,6 +19,7 @@ import snownee.jade.api.Identifiers;
 import snownee.jade.api.config.IPluginConfig;
 
 import static snownee.jade.addon.core.DistanceProvider.*;
+
 
 @Mixin(DistanceProvider.class)
 public class DistanceProviderMixin {

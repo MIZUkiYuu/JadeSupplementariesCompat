@@ -20,6 +20,8 @@ public class SupplementariesPlugin implements IWailaPlugin {
     @Environment(EnvType.CLIENT)
     public void registerClient(IWailaClientRegistration registration) {
         registration.addConfig(HandingSignBlockTileProvider.ADVANCED_TOOLTIP, true);
+        registration.addConfig(HandingSignBlockTileProvider.SHULKERBOX_INVENTORY, true);
         registration.registerBlockComponent(HandingSignBlockTileProvider.INSTANCE, HangingSignBlock.class);
     }
 }
+
