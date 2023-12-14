@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "id": "jadesupplementariescompat",
-  "version": "${version}",
-  "name": "Jade-Supplementaries-compat",
+  "version": "${mod_version}",
+  "name": "Jade-Supplementaries-Compat",
   "description": "",
   "authors": [],
   "contact": {
@@ -24,7 +24,7 @@
   "depends": {
     "fabricloader": "*",
     "fabric": "*",
-    "minecraft": "${minecraft_version}",
+    "minecraft": "1.19.2",
     "jade": "*",
     "supplementaries": "*"
   }

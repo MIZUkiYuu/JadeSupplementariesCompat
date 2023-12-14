@@ -10,8 +10,8 @@ import snownee.jade.api.WailaPlugin;
 
 @WailaPlugin
 public class JadeSupplementariesCompat implements IWailaPlugin {
-    public static final String ID = "jadecompataddon";
-    public static final String NAME = "Jade Compat Addon";
+    public static final String ID = "jadesupplementariescompat";
+    public static final String NAME = "Jade Supplementaries Compat";
     public static final Logger LOGGER = LogManager.getLogger(NAME);
 
     SupplementariesPlugin supplementariesPlugin = new SupplementariesPlugin();

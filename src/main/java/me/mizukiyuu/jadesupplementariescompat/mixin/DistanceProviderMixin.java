@@ -1,8 +1,5 @@
 package me.mizukiyuu.jadesupplementariescompat.mixin;
 
-import net.fabricmc.api.EnvType;
-import net.fabricmc.api.Environment;
-import net.mehvahdjukaar.moonlight.api.platform.PlatformHelper;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Vec3i;
@@ -41,7 +38,7 @@ public class DistanceProviderMixin {
             }
 
             if (distance) {
-                tooltip.append(0, tooltip.getElementHelper().text(Component.translatable("jade.distance1", new Object[]{distanceVal})).message(distanceMsg));
+                tooltip.append(0, tooltip.getElementHelper().text(Component.translatable("jade.distance1", distanceVal)).message(distanceMsg));
             }
         } else if (distance) {
             tooltip.append(0, tooltip.getElementHelper().text(Component.translatable("jade.distance2", distanceVal)).message(distanceMsg));
