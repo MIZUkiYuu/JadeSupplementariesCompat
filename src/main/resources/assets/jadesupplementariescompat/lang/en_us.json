@@ -1,5 +1,6 @@
 {
+  "config.jade.plugin_supplementaries.advanced_tooltip": "Advanced Tooltip",
   "config.jade.plugin_supplementaries.hanging_sign": "Hanging Sign",
-  "config.jade.plugin_supplementaries.hanging_sign.advanced_tooltip": "Advanced Tooltip",
-  "config.jade.plugin_supplementaries.hanging_sign.shulkerbox_inventory": "Shulkerbox Inventory"
+  "config.jade.plugin_supplementaries.hanging_sign.show_inventory": "Show Inventory",
+  "config.jade.plugin_supplementaries.present": "present block"
 }
